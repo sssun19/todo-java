@@ -3,8 +3,8 @@ POST localhost:8080/api/todos
 Content-Type: application/json
 
 {
-  "title": "숙제",
-  "description": "수학 숙제를 해야한다"
+  "title": "식사약속",
+  "description": "12시에 점심 먹자"
 }
 
 
