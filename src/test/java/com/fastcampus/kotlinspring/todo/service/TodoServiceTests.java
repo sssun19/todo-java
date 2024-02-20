@@ -1,6 +1,5 @@
 package com.fastcampus.kotlinspring.todo.service;
 
-import com.fastcampus.kotlinspring.todo.domain.Todo;
 import com.fastcampus.kotlinspring.todo.domain.TodoRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
