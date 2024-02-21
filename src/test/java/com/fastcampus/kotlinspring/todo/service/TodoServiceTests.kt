@@ -39,6 +39,7 @@ class TodoServiceTests {
     }
 
     @Test
+    // 원래 자바에선 메서드이름에 띄어쓰기 쓸 수 없었지만 코틀린에선 `` 으로 감싸면 가능
     fun `한개의 TODO를 반환해야 한다`() {
         // Given
         every { repository.findByIdOrNull(1) } returns stub
